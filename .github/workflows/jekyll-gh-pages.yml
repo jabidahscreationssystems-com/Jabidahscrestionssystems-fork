@@ -34,7 +34,6 @@ jobs:
           # Enable GitHub Pages programmatically if not already enabled
           # This requires the workflow to have pages: write permission
           enablement: true
-          token: ${{ github.token }}
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
